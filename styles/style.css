@@ -1,0 +1,170 @@
+/* Global parts */
+
+html {
+  height: 100%;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  width: 100%;
+  margin: 0 auto;
+  line-height: 1;
+  overflow-x: hidden;
+  min-height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+main {
+  flex: 1 1 auto;
+}
+
+h1 {
+  padding-bottom: 1em;
+  font-size: 2em;
+  font-weight: bold;
+}
+
+/* Containers */
+
+.container {
+  max-width: 940px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.flex {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+/* Header */
+
+.header {
+  padding-top: 1em;
+  padding-bottom: 1em;
+  border-bottom: 1px solid #828282;
+}
+
+/* Main */
+
+.info {
+  padding-top: 1em;
+  padding-bottom: 1em;
+}
+
+.info h1 {
+  font-size: 3em;
+  line-height: 59px;
+  font-weight: bold;
+  padding-bottom: 0;
+}
+
+.info p {
+  font-size: 16px;
+  padding-bottom: 10px;
+  align-self: flex-end
+}
+
+.info p:last-of-type{
+  padding-bottom: 0px;
+  align-self: center;
+  font-size: 16px;
+  transform: rotate(-90deg) translateY(160%);
+}
+
+.img-block {
+  padding-top: 1em;
+  padding-bottom: 4em ;
+}
+
+.img-block img {
+  margin: 0 auto;
+  width: 100%;
+}
+
+.img-block img:last-of-type {
+  display: none;
+}
+
+/* About */
+
+.about {
+  width: 100%;
+  padding: 80px 0px;
+  text-align: center;
+  background: #F6F6F6;
+}
+
+.about p {
+  padding-bottom: 2em;
+  line-height: 22px;
+}
+
+.about p:last-of-type {
+  padding-bottom: 0;
+}
+
+/* Skills */
+
+.skills {
+  padding: 80px 0px;
+  text-align: center;
+}
+
+  /* Icon */
+.icon-text {
+  font-size: 14px;
+  color: #828282;
+  padding-top: 1em;
+  padding-bottom: 2em;
+}
+
+.icon-item {
+  padding-left: 3em;
+  padding-right: 3em;
+  padding-bottom: 3em;
+}
+
+.flex-icon {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  align-self: center;
+}
+
+/* Portfolio */
+
+.portfolio {
+  width: 100%;
+  padding: 80px 0px;
+  text-align: center;
+  background: #F6F6F6;
+  padding-bottom: 1em;
+}
+
+.portfolio p {
+  padding-top: 3em;
+}
+
+/* Contacts */
+
+.contacts {
+  padding: 80px 0px;
+  width: 100%;
+  text-align: center;
+}
+
+.contacts .img-block {
+  max-width: 300px;
+}
+
+.contacts .flex {
+  justify-content: space-between;
+  max-width: 450px;
+}
+
+footer .contacts p:last-of-type {
+  color: #828282;
+}

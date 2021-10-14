@@ -1,0 +1,16 @@
+/* Media */
+
+@media screen and (max-width: 400px) {
+  .info p:last-of-type {
+    display: none;
+  }
+  
+  .img-block img:first-of-type {
+    display: none;
+  }
+  
+  .img-block img:last-of-type {
+    display: block;
+  }
+}
+
